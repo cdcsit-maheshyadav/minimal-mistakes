@@ -5,22 +5,24 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+minimal_mistakes_skin    : "sunrise" # "air", "contrast", "sunrise", "dirt", "mint", "sunrise", "default"
+
 # Site Settings
-locale                   : "en-US"
-title                    : "Minimal Mistakes"
+locale                   : "en"
+title                    : "Mahesh Kumar Yadav / Blog"
 title_separator          : "-"
-name                     : &name "Michael Rose"
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : "https://cdcsit-maheshyadav.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
-repository               : "cdcsit-maheshyadav/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+name                     : "Mahesh Kr. Yadav"
+description              : "I am a Web Designer & Web Developer. I am originally from Dharhari, a little village located in Rautahat district of Nepal."
+url                      : "https://blog.maheshyadav.com.np" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "ritayadav/minimal-mistakes" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            :
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -30,12 +32,12 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
-  path                   : "_data/comments/{options.slug}"
+  path                   : "_data/comments/{options.slug}" #"docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
   requiredFields         : ['name', 'email', 'message']
   transforms:
     email                : "md5"
@@ -48,16 +50,16 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+google_site_verification : "1XyXt8b0xSSiiANw2Ja4J5EJ1pqvbMvaO_owvSs0zfs"
 bing_site_verification   :
 alexa_site_verification  :
-yandex_site_verification :
+yandex_site_verification : "36f9d4e28c190623"
 
 # Social Sharing
 twitter:
-  username               : &twitter "mmistakes"
+  username               : "maheshdharhari"
 facebook:
-  username               : &facebook "michaelrose"
+  username               : "maheshdharhari"
   app_id                 :
   publisher              :
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
@@ -67,8 +69,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://facebook.com/michaelrose"
+    - "https://twitter.com/maheshdharhari"
+    - "https://facebook.com/maheshdharhari"
 
 # Analytics
 analytics:
@@ -79,34 +81,35 @@ analytics:
 
 # Site Author
 author:
-  name             : *name
-  avatar           : "michael-rose.jpg"
-  bio              : "Just another boring, tattooed, time traveling, designer."
-  location         : "Buffalo, NY"
-  email            :
-  uri              : "https://mademistakes.com"
-  bitbucket        :
+  name             : "Mahesh Kr. Yadav"
+  avatar           : "profile.jpg"
+  bio              : "Programmer"
+  location         : "Kathmandu, NP"
+  email            : "contact@maheshyadav.com.np"
+  uri              : "https://maheshyadav.com.np"
+  bitbucket        : "maheshdharhari"
   codepen          :
   dribbble         :
-  flickr           :
-  facebook         : *facebook
+  flickr           : "mahesh.dharhari"
+  facebook         : "maheshdharhari"
   foursquare       :
-  github           : "mmistakes"
-  google_plus      :
+  github           : "maheshdharhari"
+  google_plus      : "MaheshKumarYadavDharhari"
   keybase          :
-  instagram        : "mmistakes"
+  instagram        : "maheshdharhari"
   lastfm           :
-  linkedin         :
-  pinterest        :
+  linkedin         : "maheshdharhari"
+  pinterest        : "maheshdharhari"
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : *twitter
+  twitter          : "maheshdharhari"
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : "MaheshKumarYadavDharhari"
+
 
 
 # Reading Files
